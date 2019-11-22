@@ -19,7 +19,7 @@ https://indiabank.herokuapp.com/login
 
 bank details of a particular branch is feteched by follwing curl command using ifsc of the bank
 
-curl -i -H "Accept: application/json" -H "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSYWh1bCIsInVzZXJJZCI6IjEyNSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTU3MDE4MzI2Mn0.YkGzbPxmWMQxlGGMMYgkEfej6nfRRBxH1P6FTgsJX2hX4Y4ji6CcLg1k5KH6rkliyvoZkKIJ5Zpp043NybWZSg" 
+curl -i -H "Accept: application/json" -H "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBcm5hYiIsInVzZXJJZCI6IjE0NTc4OSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTU3NDgyODE1Nn0.gp6e5OcR_rdOMbBqLvPP-LX_oL7M_27c57ouCSztogMIEK18Xhy_-fccdqoPW4jFYTx0gadJcTejMjPYEgwx7w" 
 "https://indiabank.herokuapp.com/bank/ifsc?ifscCode=ABHY0065001&limit=10&offset=0"
 
 // ifscCode is your ifsc code of the bank you want to fetch the details of. 
@@ -30,7 +30,7 @@ curl -i -H "Accept: application/json" -H "Authorization: eyJhbGciOiJIUzUxMiJ9.ey
 
 all the branches of the bank given the bank name and city
 
-curl -i -H "Accept: application/json" -H "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSYWh1bCIsInVzZXJJZCI6IjEyNSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTU3MDE3OTk2MX0.45-VfwF33xDCh29kyNQi52yg7ACaI6di1a29ZJkcvIZleIIu-bNPATjuNwI9-f2rkOPjO-2eiEQFALDZsOBpdg" 
+curl -i -H "Accept: application/json" -H "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBcm5hYiIsInVzZXJJZCI6IjE0NTc4OSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTU3NDgyODE1Nn0.gp6e5OcR_rdOMbBqLvPP-LX_oL7M_27c57ouCSztogMIEK18Xhy_-fccdqoPW4jFYTx0gadJcTejMjPYEgwx7w" 
 "https://indiabank.herokuapp.com/bank/branches?bankName=UNION%20BANK%20OF%20INDIA&city=MUMBAI&limit=10&offset=5"
 
 //bankName is your bank name and city is your city
