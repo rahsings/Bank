@@ -10,8 +10,8 @@ public class Constant {
 	public static final String TOKEN_MISSING = "JWT Token is missing";
 	public static final String TOKEN_INCORRECT = "JWT Token is incorrect";
 	public static final String BLANK = "";
-	public static final String API = "**/api/**";
-	public static final String AUTHENTICATION_API = "/api/**";
+	public static final String API = "**/bank/**";
+	public static final String AUTHENTICATION_API = "/bank/**";
 	public static final String UNAUTHORIZED ="UNAUTHORIZED";
 	public static final String SUCESSFULLY_AUTHICATED = "Successfully Authentication";
 	public static final int ZERO = 0;
